@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaPatchGenerator", "DeltaPatchGenerator\DeltaPatchGenerator.csproj", "{C38760C4-990E-418D-9D88-FBEF384E5605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaPatchGeneratorWindowsGUI", "DeltaPatchGeneratorWindowsGUI\DeltaPatchGeneratorWindowsGUI.csproj", "{BD9739B2-5AE9-4E1A-8FF9-4BA34A1E64A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38760C4-990E-418D-9D88-FBEF384E5605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38760C4-990E-418D-9D88-FBEF384E5605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38760C4-990E-418D-9D88-FBEF384E5605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38760C4-990E-418D-9D88-FBEF384E5605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9739B2-5AE9-4E1A-8FF9-4BA34A1E64A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9739B2-5AE9-4E1A-8FF9-4BA34A1E64A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9739B2-5AE9-4E1A-8FF9-4BA34A1E64A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9739B2-5AE9-4E1A-8FF9-4BA34A1E64A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB33996E-4193-4B84-BEA0-A531AEFAB91C}
+	EndGlobalSection
+EndGlobal

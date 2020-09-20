@@ -1,0 +1,21 @@
+﻿<Window x:Class="DeltaPatchGeneratorWindowsGUI.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeltaPatchGeneratorWindowsGUI"
+        mc:Ignorable="d"
+        Title="About Delta Patch Generator" Height="400" MinWidth="500" Width="500" MinHeight="240">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Margin="20,20,20,20">
+            <Run Text="Version 1"/><LineBreak/><LineBreak/>
+            <Run Text="Source is available at: "/><Hyperlink NavigateUri="https://github.com/LentUsername/DeltaPatchGenerator" Click="Hyperlink_Click"><Run Text="https://github.com/LentUsername/DeltaPatchGenerator"/></Hyperlink><LineBreak/><LineBreak/>
+            <Run Text="Licensed under Apache License: "/><Hyperlink NavigateUri="https://www.apache.org/licenses/LICENSE-2.0.html" Click="Hyperlink_Click"><Run Text="https://www.apache.org/licenses/LICENSE-2.0.html"/></Hyperlink>
+        </TextBlock>
+        <TextBox x:Name="licenseTextBox" IsReadOnly="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Grid.Row="1"/>
+    </Grid>
+</Window>
